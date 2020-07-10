@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gdocr | Rajmahendra</title>
+    <link>/tag/gdocr/</link>
+      <atom:link href="/tag/gdocr/index.xml" rel="self" type="application/rss+xml" />
+    <description>gdocr</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 16 Dec 2013 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>gdocr</title>
+      <link>/tag/gdocr/</link>
+    </image>
+    
+    <item>
+      <title>Global Day of Coderetreat 2013</title>
+      <link>/talk/my-first-hosting-ofgdocoderetreat-2013/</link>
+      <pubDate>Mon, 16 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>/talk/my-first-hosting-ofgdocoderetreat-2013/</guid>
+      <description>&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/kYXHkZDVoz5nd8&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/rajmahendra/global-day-of-coderetreat-2013-chennai-jugchennai&#34; title=&#34;Global Day of Coderetreat 2013 Chennai - JUGChennai&#34; target=&#34;_blank&#34;&gt;Global Day of Coderetreat 2013 Chennai - JUGChennai&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;https://www.slideshare.net/rajmahendra&#34; target=&#34;_blank&#34;&gt;Rajmahendra Hegde&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
