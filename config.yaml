@@ -1,0 +1,431 @@
+baseURL: "https://hugo-profile.netlify.app"
+languageCode: "en-us"
+title: "Rajmahendra"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+Paginate: 3
+enableRobotsTXT: true
+# disqusShortname: your-disqus-shortname
+# googleAnalytics: G-MEASUREMENT_ID
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    - identifier: talks
+      name: Talks
+      title: My Talks
+      url: /talks
+      weight: 1
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: https://rajmahendra.substack.com/
+      weight: 2
+    - identifier: gallery
+      name: Gallery
+      title: Blog posts
+      url: /gallery
+      weight: 3
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "Rajmahendra.in"
+  description: Raj's blog anyone on the world.
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/fav.png"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+
+  # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
+  mathjax: false
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    disableThemeToggle: true
+    defaultTheme: "dark" # dark
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # When using hex codes for colors, quotations must be used along with the # sign
+  # color:
+  #   textColor: "#343a40"
+  #   secondaryTextColor: "#6c757d"
+  #   textLinkColor: "#007bff"
+  #   backgroundColor: "#eaedf0"
+  #   secondaryBackgroundColor: "#64ffda1a"
+  #   primaryColor: "#007bff"
+  #   secondaryColor: "#f8f9fa"
+
+  #   darkmode:
+  #     textColor: "#e4e6eb"
+  #     secondaryTextColor: "#b0b3b8"
+  #     textLinkColor: "#ffffff"
+  #     backgroundColor: "#18191a"
+  #     secondaryBackgroundColor: "#212529"
+  #     primaryColor: "#ffffff"
+  #     secondaryColor: "#212529"
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "Rajmahendra.in" # Brand name for the brand | default is the title variable
+    disableSearch: false
+    # searchPlaceholder: "Search"
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    enableSeparator: false
+    menus:
+      disableAbout: true
+      disableExperience: true
+      disableEducation: true
+      disableProjects: true
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Rajmahendra."
+    subtitle: "Software engineer - Agile coach. tech community enthusiast,bibliophile, ethical vegan, vedanta student, permaculture, yoga and meditation"
+    content: "I have no special talents. I am only passionately curious. - Albert Einstein"
+    image: /images/MyGeneralProfile.png
+    bottomImage:
+      enable: false
+      roundImage: true # Make hero image circular | default false
+    button:
+      enable: false
+      name: "Resume"
+      url: "#"
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/rajmahendra
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/rajmahendra/
+#      customIcons:
+#        - icon: /fav.png
+#          url: "https://example.com"
+
+  # About
+  about:
+    enable: false
+    title: "About Me"
+    image: "/images/rajoldpic.jpg"
+    content: |-
+      Raj has been working in Information Technology with special focus in the areas of Java development and Agile-Lean Project Management for over 20 years. Since the time he started his career as a Java developer has experienced has spanned several domains including ERP, EIP, Manufacturing, Healthcare. He worked in many areas of software development including designing, development, testing, and quality.
+
+      Raj is an Agile Practitioner by profession and a Java/Scala/Kotlin hacker and Community Guy at night!.
+
+      Java Space Raj is a Community Guy since 2007, He has formed and leads two Java User Group (Chennai, Hyderabad). Currently, he is leading the Kotlin Hyderabad Community. He is a Java Champion and NetBeans DreamTeam member. He contributes to the Java community in both OpenSource and to the core team. He is an individual member at JCP and been an Expert Group member for some JSR.
+
+      Agile Practioner  Raj is a strong believer of the Agile and Lean way of project management. He has worked as Team Member, Scrum Master, and Product Owner. He has completed CSM and CSPO and pursuing more in the future on PMI-ACP, CSP, LeSS, etc.
+
+      Specialties  Java, Java EE, Java FX, JVM Languages ( Groovy, Scala, and Kotlin), Glassfish, NetBeans, OSGI, Continuous Integration ( Jenkins), Build tools (Ant, Maven, Gradle), Agile development, Scrum-Lean, XP, Kanban, LeSS, Clear Code.
+
+    skills:
+      enable: false
+      title: "Here are a few technologies I've been working with recently:"
+      items:
+        - "HTML"
+        - "CSS"
+        - "JavaScript"
+        - "React"
+        - "Node"
+        - "Express"
+
+  # Experience
+  experience:
+    enable: false
+    title: "Projects"
+    items:
+      - job: "User Group Lead"
+        company: "Community Guy"
+        #companyUrl: "https://example.com"
+        #date: "Jan 2022 - present"
+        featuredLink:
+          enable: false
+          name: "View the project"
+          url: "https://example.com"
+        content: "This is my first project outside of my career. A community leader gave me the opportunity to connect with diverse minds beyond my company and build a Java and Kotlin community. I help developers, support like-minded individuals, organize events, speak at conferences and colleges, travel internationally to represent the Indian Java community, and contribute to the global Java and Kotlin community."
+
+      - job: "Software Developer"
+        company: "Amazon"
+        companyUrl: "https://example.com"
+        date: "Sep 2020 - Dec 2021"
+        featuredLink:
+          enable: true
+          url: "https://example.com"
+        info:
+          enable: true
+          content: I worked as a software developer for more than one year in Amazon.
+        content: |
+          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+
+          - Lead backend developer for a product.
+          - Created a frontend design for a product.
+
+      - job: "Junior Software Developer"
+        company: "Apple"
+        companyUrl: "https://example.com"
+        date: "Jan 2020 - Aug 2020"
+        info:
+          enable: false
+        featuredLink:
+          enable: true
+          url: "https://example.com"
+        content: |
+          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+
+          - Lead backend developer for a product.
+          - Created a frontend design for a product.
+
+      - job: "UI/UX Designer"
+        company: "Netflix"
+        companyUrl: "https://example.com"
+        date: "June 2017 - Nov 2019"
+        featuredLink:
+          enable: true
+          url: "https://example.com"
+        content: |
+          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+
+          - Lead backend developer for a product.
+          - Created a frontend design for a product.
+
+      - job: "Product Designer"
+        company: "Google"
+        companyUrl: "https://example.com"
+        date: "Feb 2016 - Mar 2017"
+        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+
+  # Education
+  education:
+    enable: false
+    # title: "Custom Name"
+    index: false
+    items:
+      - title: "Master of Business Administration"
+        school:
+          name: "University of California, Berkeley"
+          url: "https://example.org"
+        date: "2013 - 2015"
+        GPA: "3.8 out of 5.0"
+        content: |-
+          Extracurricular Activities
+            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+      - title: "Bachelor of Science in Computer Science"
+        school:
+          name: "Massachusetts Institute of Technology"
+          url: "https://example.org"
+        date: "2009 - 2013"
+        GPA: "3.9 out of 5.0"
+        content: |-
+          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
+          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
+          - Face mask detection using a single convolutional neural network.
+
+          Extracurricular Activities
+            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+        featuredLink:
+          enable: true
+          name: "My academic record"
+          url: "https://example.com"
+      - title: "High School"
+        school:
+          name: "Thomas Jefferson High School for Science and Technology."
+          url: "https://example.org"
+        GPA: "4.2 out of 5.0"
+        featuredLink:
+          enable: true
+          url: "https://example.com"
+
+  # Achievements
+  achievements:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: Java Champion
+        content: Received Java Champion from the Java Community.
+        url: https://blogs.oracle.com/java/post/new-java-champion-rajmahendra-hegde
+        image: /images/achievment/javachampion.jpg
+      - title: JCP Program and Industry Awards - Outstanding Adopt-a-JSR Participant
+        content: JCP Program and Industry Awards - Outstanding Adopt-a-JSR Participant
+        url: https://jcp.org/en/press/news/awards/2023awards
+        image: /images/achievment/JCP_Program_Award.png
+      - title: JavaOne India 2013 
+        content: Rajmahendra Hegde discusses the Money and Currency API, Adopt A JSR, and Chennai JUG. From JavaOne India 2013.
+        url: "https://www.youtube.com/watch?v=1pgsqm-nT5o&list=PLB6F4FF1E19BD80FE"
+        image: /images/achievment/JavaOneIndiaInterview.png
+      - title: The annual International Oracle User Group (IOUC) Leader's Conference
+        content: The annual International Oracle User Group (IOUC) Leader's Conference was held this week in at Oracle in Redwood Shores, California. The conference provides three days of learning, networking, sharing, and collaboration about user groups. It also fosters better communication between user group leaders and Oracle.
+        url: https://blogs.oracle.com/java/post/jug-leaders-conference
+        image: /images/achievment/IOUCLeadersConference.jpg
+      - title: Webinar - Careers in Java - 25 years of the programming language | TimesTechiesWebinars
+        content: Learn about how careers in Java are evolving in the current market, on the occasion of the 25th anniversary of Java this year. Mala Gupta and Rajmahendra Hegde, two of only three Java Champions from India, will be speaking.
+        url: https://www.facebook.com/TimesTechies/videos/413288486738459/
+        image: /images/achievment/TimesTechiesWebinarJava2020.jpg
+      - title: Conference talks
+        content: I use to give talks in conference, Colleges and in User Groups
+        url: https://www.youtube.com/watch?v=22zk-FjS1Zo
+        image: /images/achievment/talks.png
+
+  # projects
+  projects:
+    enable: false
+    # title: "Custom Name"
+    items:
+      - title: Hugo Profile
+        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
+        image: /images/projects/profile.png
+        featured:
+          name: Demo
+          link: https://hugo-profile.netlify.app
+        badges:
+          - "Hugo"
+          - "Bootstrap"
+          - "Javascript"
+        links:
+          - icon: fa fa-envelope
+            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/gurusabarish/hugo-profile
+          - icon: fab fa-twitter
+            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+
+      - title: Image Converter
+        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
+        image: /images/projects/converter.jpg
+        featured:
+          name: Demo
+          link: https://django-converter.herokuapp.com
+        badges:
+          - "Django"
+          - "Bootstrap"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/gurusabarish/converter
+
+      - title: Hugo Profile V2
+        content: A clean and simple Hugo template for personal portfolio and blog.
+        image: /images/projects/profile2.jpg
+        featured:
+          name: Demo V2
+          link: https://hugo-profile-2.netlify.app
+        badges:
+          - "Hugo"
+          - "Bootstrap"
+          - "Javascript"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/gurusabarish/HugoProfileV2
+
+  #Contact
+  contact:
+    enable: true
+    title: "My Newsletters"
+    content: "<iframe src='https://rajmahendra.substack.com/embed' width='480' height='320' style='border:1px solid #EEE; background:white;'' frameborder='0' scrolling='no'></iframe>"
+    # btnName: Mail me
+    # btnLink: mailto:rajonjava@gmail.com
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+    #   messageRows: 5
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: false
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com/rajmahendra
+      linkedin: https://linkedin.com/in/rajmahendrar/
+      twitter: https://twitter.com/rajmahendrar
+      instagram: https://instagram.com/rajmahendrar/
+    #  facebook: https://facebook.com
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  #  <script type="text/javascript"><!-- any script here --></script>
