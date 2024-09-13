@@ -122,7 +122,7 @@ params:
       showOnScrollUp : true
     enableSeparator: false
     menus:
-      disableAbout: true
+      disableAbout: false
       disableExperience: true
       disableEducation: true
       disableProjects: true
@@ -158,19 +158,19 @@ params:
 
   # About
   about:
-    enable: false
+    enable: true
     title: "About Me"
     image: "/images/rajoldpic.jpg"
     content: |-
-      Raj has been working in Information Technology with special focus in the areas of Java development and Agile-Lean Project Management for over 20 years. Since the time he started his career as a Java developer has experienced has spanned several domains including ERP, EIP, Manufacturing, Healthcare. He worked in many areas of software development including designing, development, testing, and quality.
+      Raj is a seasoned Software Engineer and Agile Coach with over 20 years of IT experience. Throughout his career, he has excelled in various roles including Developer, Module Lead, Build Manager, Scrum Master, and Product Owner. Raj’s extensive experience has equipped him with a deep understanding of the software development lifecycle and agile methodologies.
 
-      Raj is an Agile Practitioner by profession and a Java/Scala/Kotlin hacker and Community Guy at night!.
+      Beyond his professional achievements, Raj is deeply committed to the developer community. He has founded and actively run User Groups in Chennai and Hyderabad, providing a platform for knowledge sharing and networking. Raj has also organized major conferences such as the Chennai Java Summit, JTech Day, and Code Retreat, fostering collaboration and innovation within the tech community. His passion for open source is evident through his contributions and his efforts to encourage others to join the global Java community.
 
-      Java Space Raj is a Community Guy since 2007, He has formed and leads two Java User Group (Chennai, Hyderabad). Currently, he is leading the Kotlin Hyderabad Community. He is a Java Champion and NetBeans DreamTeam member. He contributes to the Java community in both OpenSource and to the core team. He is an individual member at JCP and been an Expert Group member for some JSR.
+      Raj is recognized as a Java Champion and has been a member of the NetBeans Dream Team. He is also an individual member of the JCP Community, where he has played a significant role in shaping the future of Java. Raj has delivered numerous talks at User Groups, colleges, and conferences, sharing his expertise and inspiring others.
 
-      Agile Practioner  Raj is a strong believer of the Agile and Lean way of project management. He has worked as Team Member, Scrum Master, and Product Owner. He has completed CSM and CSPO and pursuing more in the future on PMI-ACP, CSP, LeSS, etc.
+      In his personal life, Raj is an avid reader and enjoys exploring a wide range of topics. He is a certified Permaculture Designer and Yoga Teacher, reflecting his interests in sustainable living, Vedanta, yoga, and meditation. Raj believes in the importance of a balanced life and strives to integrate these principles into his daily routine. 🌱📚🧘‍♂️
 
-      Specialties  Java, Java EE, Java FX, JVM Languages ( Groovy, Scala, and Kotlin), Glassfish, NetBeans, OSGI, Continuous Integration ( Jenkins), Build tools (Ant, Maven, Gradle), Agile development, Scrum-Lean, XP, Kanban, LeSS, Clear Code.
+      Stay connected with Raj and learn more about his journey by subscribing to his weekly newsletter below.
 
     skills:
       enable: false
@@ -297,12 +297,12 @@ params:
     # title: "Custom Name"
     items:
       - title: Java Champion
-        content: Received Java Champion from the Java Community.
+        content: The Java Champions Program consists of a unique group of skilled Java technologists and community leaders sponsored by Oracle. Java Champions come from a broad cross-section of the Java community. They are leaders, influencers and enablers who help grow the size of the Java community. Java Champions are active in many ways such as actively participating in Java projects, engaging with Java User Group communities, speaking at conferences, authoring content, teaching other developers, fostering inclusive participation and so much more.
         url: https://blogs.oracle.com/java/post/new-java-champion-rajmahendra-hegde
         image: /images/achievment/javachampion.jpg
-      - title: JCP Program and Industry Awards - Outstanding Adopt-a-JSR Participant
-        content: JCP Program and Industry Awards - Outstanding Adopt-a-JSR Participant
-        url: https://jcp.org/en/press/news/awards/2023awards
+      - title: Outstanding Adopt-a-JSR Participant - Rajmahendra Hegde/JUG Chennai
+        content: JUG Chennai been the first JUG from India to Adopt-a-JSR and have been contributing in the program as a Community over the last four years. They've been part of Adopt Java EE 7, Java Money and Currency and Unit of Measurement JSR. They also serve as Expert Group Members in JSR 354, Money and Currency API, JSR 363, Units of Measurement API and JSR 365, Contexts and Dependency Injection for Java 2.0. Apart from core JSR contribution, the Chennai JUG also participates in regular JSR review program, Hackergartens and contributed to many open source projects.
+        url: https://jcp.org/en/press/news/awards/2015award_nominees
         image: /images/achievment/JCP_Program_Award.png
       - title: JavaOne India 2013 
         content: Rajmahendra Hegde discusses the Money and Currency API, Adopt A JSR, and Chennai JUG. From JavaOne India 2013.
